@@ -1,0 +1,57 @@
+
+.sl_ctr{
+    position:relative;
+    width:450px;
+    height:50vh;
+    overflow:hidden;
+    }
+    .sldr{
+    position:relative;
+    width:10000px;
+    height:50vh;
+    }
+    .sldr img{
+    float:left;
+    }
+    .prv_b, .nxt_b{
+    position:absolute;
+    top:135px;
+    display:block;
+    width:35px;
+    height:35px;
+    cursor:pointer;
+    }
+    .prv_b:hover, .nxt_b:hover{opacity:.6;}
+    .prv_b{
+    left:10px;
+    background:url(images/prv.png) no-repeat;
+    }
+    .nxt_b{
+    right:10px;
+    background:url(images/nxt.png) no-repeat;
+    }
+
+    .right-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .item-price{
+        margin: 10px;
+        text-align: center;
+    }
+    .contacts{
+        font-size: 22px;
+    }
+    .deliv{
+        font-size: 20px;
+    }
+    .item-img{
+        width: 100%;
+    }

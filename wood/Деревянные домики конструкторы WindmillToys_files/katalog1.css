@@ -1,0 +1,86 @@
+
+.sl_ctr{
+    position:relative;
+    width:450px;
+    height:50vh;
+    overflow:hidden;
+    }
+    .sldr{
+    position:relative;
+    width:10000px;
+    height:50vh;
+    }
+    .sldr img{
+    float:left;
+    }
+    .prv_b, .nxt_b{
+    position:absolute;
+    top:135px;
+    display:block;
+    width:35px;
+    height:35px;
+    cursor:pointer;
+    }
+    .prv_b:hover, .nxt_b:hover{opacity:.6;}
+    .prv_b{
+    left:10px;
+    background:url(images/prv.png) no-repeat;
+    }
+    .nxt_b{
+    right:10px;
+    background:url(images/nxt.png) no-repeat;
+    }
+
+    .right-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .item-price{
+        margin: 10px;
+        text-align: center;
+    }
+    .contacts{
+        font-size: 22px;
+    }
+    .deliv{
+        font-size: 20px;
+    }
+    .item-img{
+        width: 100%;
+    }
+.btn-zakaz{
+ display: inline-block;
+ border:1px solid #c9ae34;
+ color: #705D07;
+ border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ font-family: Verdana;
+ width: auto;
+ height: auto;
+ font-size: 16px;
+ padding: 10px 40px;
+ box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #e3c852,inset 0 0 0 1px #fce88d,0 2px 4px 0 #D4D4D4;
+ -moz-box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #e3c852,inset 0 0 0 1px #fce88d,0 2px 4px 0 #D4D4D4;
+ -webkit-box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #e3c852,inset 0 0 0 1px #fce88d,0 2px 4px 0 #D4D4D4;
+ text-shadow: 0 1px 0 #fff;
+ background-image: linear-gradient(to top, #fce374, #fcdf5b);
+ background-color: #fce374;
+ text-decoration: none;
+}
+.btn-zakaz:hover, .btn-zakaz:active{
+ border:1px solid #967d09;
+ color: #705D07;
+ box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #e3c852,inset 0 0 0 1px #fce88d;
+ -moz-box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #e3c852,inset 0 0 0 1px #fce88d;
+ -webkit-box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #e3c852,inset 0 0 0 1px #fce88d;
+ background-color: #b7a554;
+ text-decoration: none;
+}
